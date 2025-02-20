@@ -12,7 +12,7 @@ body{
 }
 .caixa img{
     width: 180px;
-    margin-top: 65px;
+    margin-top: 75px;
 }
 
 p{
@@ -27,15 +27,20 @@ a{
 
 /* #  é utilizado qnd é id */
 /* centralizando os itens */
-#cadastro{
+
+
+#cardapio{
     text-align: center;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
 /* . usado qnd é class */
-.email input, .senha input, .nome input, .telefone input, .rua input{
+.sabor input, .valor input, .observacao input, .pizza input{
     border-radius: 16px;
     border: none;
     width: 250px;
