@@ -1,15 +1,16 @@
-
-body{
-    /* reset */ 
+body {
+    /* reset */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
-    /* cores e fontes*/
+    /* cores e fontes */
     font-family: 'Roboto', sans-serif;
     background-color: #550404;
-    color : #fff;
+    color: #fff;
+   
 }
+
 
 .caixa img{
     width: 180px;
@@ -36,7 +37,7 @@ a{
 }
 
 /* . usado qnd é class */
-.email input, .senha input{
+.email input, .senha input, .cadastrar-pizzacadastra{
     border-radius: 16px;
     border: none;
     width: 250px;
@@ -48,7 +49,7 @@ a{
 
 }
 
-.entrar input {
+.entrar input, .adicionar input  {
     border-radius: 16px;
     background-color:  #ebebeb;
     color: rgb(0, 0, 0);
@@ -56,5 +57,5 @@ a{
     width: 120px;
     height: 40px;
     border: none;
-    font-weight: bolder;
+    
 }
